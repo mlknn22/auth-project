@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+.venv
+
+.env
+
+# Кеш Python
+__pycache__/
+*.pyc
+
+# Настройки IDE
+.idea/
+.vscode/
