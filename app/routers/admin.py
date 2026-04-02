@@ -4,8 +4,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
 from app.dependencies import get_admin_user
-from app.models import User
-from app.models import Role, BusinessElement, AccessRule
+from app.models.user import User
+from app.models.rbac import Role, BusinessElement, AccessRule
 from app.schemas.rbac import (
     RoleCreate,
     RoleResponse,
