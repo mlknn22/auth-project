@@ -15,8 +15,8 @@
 ## Запуск
 
 ### 1. Клонировать репозиторий
-git clone <url>
-cd auth_project
+git clone https://github.com/mlknn22/auth-project
+cd auth-project
 
 ### 2. Установить зависимости
 uv sync
